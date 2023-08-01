@@ -1,8 +1,8 @@
 import React from "react";
-import { id, clas, log, css } from "./boburka.js";
+import { id, clas, css } from "./boburka.js";
 var state = "closed";
 function dropDown() {
-    if (state == "closed") {
+    if (state === "closed") {
         id("countriesContainer").style.height = "5em";
         id("countriesContainer").style.padding = "0.5em";
         id("countriesContainer").style.transform = "translate(-.5em, -.5em)";
