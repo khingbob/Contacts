@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
 
 #topContent {
   width: 40%;
-  min-width: 350px;
+  min-width: 300px;
 }
 
 #hiddenDetailsContainer {
